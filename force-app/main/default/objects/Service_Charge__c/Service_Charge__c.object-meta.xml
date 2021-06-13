@@ -154,13 +154,13 @@ Salesforce Case Study for N26</description>
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Services Charge</label>
+    <label>Service Charge</label>
     <nameField>
         <displayFormat>SC-{0000}</displayFormat>
         <label>Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Services Charge</pluralLabel>
+    <pluralLabel>Services Charges</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>

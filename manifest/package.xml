@@ -2,24 +2,27 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>ProductInfoController</members>
+        <members>ProductInfoControllerTest</members>
         <name>ApexClass</name>
     </types>
 	<types>
 		<members>Contact.Home_Country__c</members>
 		<members>Contact.Product__c</members>
         <members>Service__c.Name</members>
-        <members>Services_Charge__c.Cost__c</members>
-        <members>Services_Charge__c.Country__c</members>
-        <members>Services_Charge__c.Is_Active__c</members>
-        <members>Services_Charge__c.Is_Free_of_Cost__c</members>
-        <members>Services_Charge__c.Percent_Cost__c</members>
-        <members>Services_Charge__c.Product__c</members>
-        <members>Services_Charge__c.Service__c</members>
+        <members>Service_Charge__c.Cost__c</members>
+        <members>Service_Charge__c.Country__c</members>
+        <members>Service_Charge__c.Is_Active__c</members>
+        <members>Service_Charge__c.Is_Free_of_Cost__c</members>
+        <members>Service_Charge__c.Percent_Cost__c</members>
+        <members>Service_Charge__c.Product__c</members>
+        <members>Service_Charge__c.Service__c</members>
+        <members>Service_Charge__c.Has_Percent_Cost__c</members>
+        <members>Service_Charge__c.Currency_Code__c</members>
 		<name>CustomField</name>
 	</types>
     <types>
 		<members>Service__c</members>
-		<members>Services_Charge__c</members>
+		<members>Service_Charge__c</members>
 		<name>CustomObject</name>
 	</types>
 	<types>

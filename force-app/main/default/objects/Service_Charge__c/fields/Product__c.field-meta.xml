@@ -5,8 +5,8 @@
     <externalId>false</externalId>
     <label>Product</label>
     <referenceTo>Product2</referenceTo>
-    <relationshipLabel>Services Charge</relationshipLabel>
-    <relationshipName>Services_Charge</relationshipName>
+    <relationshipLabel>Service Charges</relationshipLabel>
+    <relationshipName>Service_Charges</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

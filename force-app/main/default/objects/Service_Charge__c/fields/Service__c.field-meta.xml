@@ -4,8 +4,8 @@
     <externalId>false</externalId>
     <label>Service</label>
     <referenceTo>Service__c</referenceTo>
-    <relationshipLabel>Services Charge</relationshipLabel>
-    <relationshipName>Services_Charge</relationshipName>
+    <relationshipLabel>Service Charges</relationshipLabel>
+    <relationshipName>Service_Charges</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <trackTrending>false</trackTrending>
