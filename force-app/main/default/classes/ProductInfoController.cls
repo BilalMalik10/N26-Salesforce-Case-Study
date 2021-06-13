@@ -17,7 +17,7 @@ public with sharing class ProductInfoController {
     * @param caseId 
     * @return Case record
     **/
-    @AuraEnabled(Callable=true)
+    @AuraEnabled(cacheable=true)
     public static Case getCaseInfo(Id caseId){
         Case currentCase;
         try {

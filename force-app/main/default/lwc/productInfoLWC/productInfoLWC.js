@@ -13,7 +13,9 @@ export default class ProductInfoLWC extends LightningElement {
         getCaseInfo({caseId : this.recordId})
         .then(result => {
             this.case = result;
-            console.log('case --> ' + this.case);
+            console.log('case --> ' + JSON.stringify(this.case));
+            //Disabling the loading spinner
+            this.showSpinner = false;
         })
         .catch(error => {
             this.case = undefined;
