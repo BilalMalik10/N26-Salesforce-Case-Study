@@ -3,11 +3,15 @@
     <types>
         <members>ProductInfoController</members>
         <members>ProductInfoControllerTest</members>
+        <members>CustomerProductInfoWrapper</members>
+        <members>ProductInfoRESTResource</members>
+        <members>ProductInfoRESTResourceTest</members>
         <name>ApexClass</name>
     </types>
 	<types>
 		<members>Contact.Home_Country__c</members>
 		<members>Contact.Product__c</members>
+        <members>Contact.UUID__c</members>
         <members>Service__c.Name</members>
         <members>Service_Charge__c.Cost__c</members>
         <members>Service_Charge__c.Country__c</members>
